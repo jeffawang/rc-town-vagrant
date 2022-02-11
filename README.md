@@ -3,7 +3,9 @@ rc-town instance
 
 This is a playground for rc-town.
 
-Access the vm with `vagrant ssh` from this directory, and inside the vm, this directory is mounted at `/vagrant`.
+Test out rc-town with `vagrant ssh -- -l town`. If your nothing shows up, try setting `TERM=xterm-256color`.
+
+Access a shell in the vm with `vagrant ssh` from this directory. Inside the vm, this directory is mounted at `/vagrant`.
 
 Vagrantfile created with `vagrant init hashicorp/bionic64`.
 
