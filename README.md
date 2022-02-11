@@ -3,7 +3,9 @@ rc-town instance
 
 This is a playground for rc-town.
 
-Test out rc-town with `vagrant ssh -- -l town`. If your nothing shows up, try setting `TERM=xterm-256color`.
+Test out rc-town with `ssh localhost -p 22222 -l town`. If your nothing shows up, try setting `TERM=xterm-256color`.
+
+If you're the creator of the vagrant vm, you can also use `vagrant ssh -- -l town` to ssh in, but this does not seem to work for other users.
 
 Access a shell in the vm with `vagrant ssh` from this directory. Inside the vm, this directory is mounted at `/vagrant`.
 
